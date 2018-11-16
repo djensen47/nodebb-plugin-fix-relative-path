@@ -5,7 +5,7 @@
   "url": "https://github.com/djensen47/nodebb-fix-relative-path",
   "library": "index.js",
   "hooks": [
-    { "hook": "filter:parse.post", "method": "parsePost", "priority": 6 }
+    { "hook": "filter:parse.post", "method": "parsePost", "priority": 4 }
   ],
   "staticDirs": {},
   "less": [],
