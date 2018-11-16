@@ -1,0 +1,13 @@
+{
+  "id": "nodebb-plugin-fix-relative-path",
+  "name": "Fixes issue on forums with wrong relative path in URLs",
+  "description": "TBD",
+  "url": "https://github.com/djensen47/nodebb-fix-relative-path",
+  "library": "index.js",
+  "hooks": [
+    { "hook": "filter:parse.post", "method": "parsePost", "priority": 6 }
+  ],
+  "staticDirs": {},
+  "less": [],
+  "scripts": []
+}
